@@ -15,7 +15,7 @@
     background-size: cover;
 
 }
-.first,.um{
+#lol,.first,.um{
     font-family: "Amatic SC", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -81,7 +81,7 @@ a{
         font-size: 5rem !important;
         text-align: center !important;
     }
-    #hehaw{
+    #hehaw,#lol{
         font-size: 6rem !important;
 
     }
