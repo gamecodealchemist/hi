@@ -1,0 +1,100 @@
+
+.cover{
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    color: white;
+    padding: 0;
+    background-image: url("./assets/pexels-eberhardgross-691668.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.first,.um{
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    bottom:28%;
+    position: relative;
+    font-size: 10rem !important;
+    color: white !important;
+}
+
+.bye{
+    position: absolute;
+    font-size: 4rem !important;
+    top: 45%;
+}
+#about{
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.lead{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  
+}
+.o{
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.je{
+    font-size: 4rem !important;
+    top: 45%;
+    color: white;
+}
+.card-title{
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 4rem;
+}
+.card-text{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+a{
+    font-family: "Roboto Slab", serif !important;
+    font-optical-sizing: auto !important;
+    font-weight: 300 !important;
+    font-style: normal !important;
+}
+
+@media (max-width: 768px)
+{
+    img{
+        width: 500px;
+        height: 300px;
+    }
+    .um{
+        font-size: 5rem !important;
+        text-align: center !important;
+    }
+    .hehaw{
+        font-size: 6rem !important;
+
+    }
+    .je{
+        font-size: 3rem !important;
+    }
+    .card-title{
+        font-size: 3rem !important;
+    }
+    .bye{
+        font-size: 3rem !important;
+    }
+    .first{
+        font-size: 8rem !important;
+    }
+}
